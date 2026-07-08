@@ -1,0 +1,21 @@
+# The Pool — central config.
+# Every path and setting lives here, never hardcoded in a .py file.
+# Adding a new intake channel = add ONE line under `sources`. No code changes.
+
+paths:
+  extracted: extracted            # one clean .txt per CV lands here
+  processed_ledger: processed.csv # skip-list: files already handled (used from v0.2)
+  results_report: results.csv     # the damage report: clean / suspicious / failed
+
+# Each source folder lives under raw/. The FOLDER NAME is the tag on every CV.
+# Later, `form` will point at your Drive-synced folder instead of a local one.
+sources:
+  linkedin: raw/linkedin
+  form: raw/form
+  network: raw/network
+
+settings:
+  # A CV that extracts to fewer than this many characters gets flagged "suspicious"
+  # (probably a scanned image pdfplumber couldn't read). This is a first guess —
+  # we'll tune it once the first run shows how long a normal CV actually comes out.
+  suspicious_char_threshold: 300

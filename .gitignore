@@ -1,0 +1,17 @@
+# --- The Pool: never commit real data or secrets ---
+
+# The virtual environment
+venv/
+
+# Real candidate data — CVs and everything derived from them.
+# HARD LINE: raw CVs never touch GitHub.
+raw/
+extracted/
+*.csv
+
+# API keys (added at Layer 1 v0.3) live here, never in code.
+.env
+
+# Python noise
+__pycache__/
+*.pyc
