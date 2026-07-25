@@ -1,0 +1,299 @@
+[
+  {
+    "id": "software_engineering",
+    "label_en": "Software Engineering",
+    "label_ar": "تطوير البرمجيات",
+    "example_titles": [
+      "Software Engineer",
+      "Backend Developer",
+      "Frontend Developer",
+      "Mobile Developer",
+      "Full Stack Developer",
+      "QA Engineer",
+      "DevOps Engineer",
+      "Software Architect"
+    ]
+  },
+  {
+    "id": "data_analytics",
+    "label_en": "Data & Analytics",
+    "label_ar": "البيانات والتحليلات",
+    "example_titles": [
+      "Data Analyst",
+      "Data Scientist",
+      "BI Developer",
+      "Data Engineer",
+      "Machine Learning Engineer",
+      "Reporting Analyst"
+    ]
+  },
+  {
+    "id": "it_support_infrastructure",
+    "label_en": "IT Support & Infrastructure",
+    "label_ar": "الدعم التقني والبنية التحتية",
+    "example_titles": [
+      "IT Support Specialist",
+      "System Administrator",
+      "Network Engineer",
+      "IT Manager",
+      "Help Desk Technician",
+      "ERP Consultant"
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "label_en": "Cybersecurity",
+    "label_ar": "الأمن السيبراني",
+    "example_titles": [
+      "Security Analyst",
+      "SOC Analyst",
+      "Penetration Tester",
+      "Security Engineer",
+      "GRC Specialist",
+      "Information Security Manager"
+    ]
+  },
+  {
+    "id": "gis_geospatial",
+    "label_en": "GIS & Geospatial",
+    "label_ar": "نظم المعلومات الجغرافية",
+    "example_titles": [
+      "GIS Specialist",
+      "GIS Analyst",
+      "Surveyor",
+      "Remote Sensing Analyst",
+      "Cartographer",
+      "Geomatics Engineer"
+    ]
+  },
+  {
+    "id": "civil_engineering",
+    "label_en": "Civil & Structural Engineering",
+    "label_ar": "الهندسة المدنية والإنشائية",
+    "example_titles": [
+      "Civil Engineer",
+      "Site Engineer",
+      "Structural Engineer",
+      "Quantity Surveyor",
+      "Construction Manager",
+      "Resident Engineer"
+    ]
+  },
+  {
+    "id": "mechanical_engineering",
+    "label_en": "Mechanical Engineering",
+    "label_ar": "الهندسة الميكانيكية",
+    "example_titles": [
+      "Mechanical Engineer",
+      "HVAC Engineer",
+      "Maintenance Engineer",
+      "MEP Engineer",
+      "Piping Engineer"
+    ]
+  },
+  {
+    "id": "electrical_engineering",
+    "label_en": "Electrical Engineering",
+    "label_ar": "الهندسة الكهربائية",
+    "example_titles": [
+      "Electrical Engineer",
+      "Instrumentation Engineer",
+      "Control Systems Engineer",
+      "Power Engineer",
+      "ELV Engineer"
+    ]
+  },
+  {
+    "id": "architecture_design",
+    "label_en": "Architecture & Design",
+    "label_ar": "العمارة والتصميم",
+    "example_titles": [
+      "Architect",
+      "Interior Designer",
+      "Urban Planner",
+      "BIM Engineer",
+      "Landscape Architect",
+      "Draftsman"
+    ]
+  },
+  {
+    "id": "quality_hse",
+    "label_en": "Quality, Health, Safety & Environment",
+    "label_ar": "الجودة والسلامة والبيئة",
+    "example_titles": [
+      "Safety Officer",
+      "HSE Manager",
+      "QA/QC Engineer",
+      "Quality Inspector",
+      "Environmental Specialist",
+      "ISO Auditor"
+    ]
+  },
+  {
+    "id": "project_management",
+    "label_en": "Project Management",
+    "label_ar": "إدارة المشاريع",
+    "example_titles": [
+      "Project Manager",
+      "Project Coordinator",
+      "Planning Engineer",
+      "PMO Specialist",
+      "Program Manager",
+      "Scheduler"
+    ]
+  },
+  {
+    "id": "hr",
+    "label_en": "Human Resources",
+    "label_ar": "الموارد البشرية",
+    "example_titles": [
+      "HR Specialist",
+      "Recruiter",
+      "HR Manager",
+      "Compensation & Benefits Analyst",
+      "Training Specialist",
+      "HR Business Partner",
+      "Payroll Specialist"
+    ]
+  },
+  {
+    "id": "finance_accounting",
+    "label_en": "Finance & Accounting",
+    "label_ar": "المالية والمحاسبة",
+    "example_titles": [
+      "Accountant",
+      "Financial Analyst",
+      "Auditor",
+      "Finance Manager",
+      "AP/AR Accountant",
+      "Treasury Specialist",
+      "Tax Specialist"
+    ]
+  },
+  {
+    "id": "sales",
+    "label_en": "Sales & Business Development",
+    "label_ar": "المبيعات وتطوير الأعمال",
+    "example_titles": [
+      "Sales Executive",
+      "Account Manager",
+      "Sales Manager",
+      "Business Development Manager",
+      "Sales Representative",
+      "Presales Engineer"
+    ]
+  },
+  {
+    "id": "marketing",
+    "label_en": "Marketing & Creative",
+    "label_ar": "التسويق والإبداع",
+    "example_titles": [
+      "Marketing Specialist",
+      "Digital Marketing Manager",
+      "Social Media Specialist",
+      "Brand Manager",
+      "Content Creator",
+      "Graphic Designer"
+    ]
+  },
+  {
+    "id": "procurement_supply_chain",
+    "label_en": "Procurement, Supply Chain & Logistics",
+    "label_ar": "المشتريات وسلاسل الإمداد واللوجستيات",
+    "example_titles": [
+      "Procurement Specialist",
+      "Buyer",
+      "Supply Chain Manager",
+      "Warehouse Supervisor",
+      "Logistics Coordinator",
+      "Inventory Controller"
+    ]
+  },
+  {
+    "id": "operations_admin",
+    "label_en": "Operations & Administration",
+    "label_ar": "العمليات والشؤون الإدارية",
+    "example_titles": [
+      "Admin Assistant",
+      "Executive Assistant",
+      "Office Manager",
+      "Operations Manager",
+      "Government Relations Officer",
+      "Document Controller",
+      "Receptionist"
+    ]
+  },
+  {
+    "id": "customer_service",
+    "label_en": "Customer Service",
+    "label_ar": "خدمة العملاء",
+    "example_titles": [
+      "Customer Service Representative",
+      "Call Center Agent",
+      "Customer Support Specialist",
+      "Customer Experience Manager"
+    ]
+  },
+  {
+    "id": "legal_compliance",
+    "label_en": "Legal & Compliance",
+    "label_ar": "الشؤون القانونية والالتزام",
+    "example_titles": [
+      "Legal Counsel",
+      "Lawyer",
+      "Compliance Officer",
+      "Contracts Specialist",
+      "Legal Advisor",
+      "Paralegal"
+    ]
+  },
+  {
+    "id": "healthcare",
+    "label_en": "Healthcare & Medical",
+    "label_ar": "الرعاية الصحية",
+    "example_titles": [
+      "Nurse",
+      "Physician",
+      "Pharmacist",
+      "Lab Technician",
+      "Radiographer",
+      "Physiotherapist",
+      "Dentist",
+      "Medical Coder"
+    ]
+  },
+  {
+    "id": "education_training",
+    "label_en": "Education & Training",
+    "label_ar": "التعليم والتدريب",
+    "example_titles": [
+      "Teacher",
+      "Trainer",
+      "Instructor",
+      "Academic Advisor",
+      "Instructional Designer",
+      "Lecturer"
+    ]
+  },
+  {
+    "id": "security_facilities",
+    "label_en": "Security & Facilities",
+    "label_ar": "الأمن والمرافق",
+    "example_titles": [
+      "Security Guard",
+      "Security Supervisor",
+      "Security Officer",
+      "Access Control Officer",
+      "Facilities Coordinator",
+      "Facility Manager",
+      "Maintenance Supervisor",
+      "Building Services Technician"
+    ]
+  },
+  {
+    "id": "other",
+    "label_en": "Other",
+    "label_ar": "أخرى",
+    "example_titles": []
+  }
+]

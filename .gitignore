@@ -8,7 +8,9 @@ venv/
 raw/
 extracted/
 *.csv
-
+profiles/
+all_cv_texts.txt
+all_profiles.json
 # API keys (added at Layer 1 v0.3) live here, never in code.
 .env
 

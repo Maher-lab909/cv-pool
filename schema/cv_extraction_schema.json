@@ -1,0 +1,340 @@
+{
+  "title": "cv_extraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "full_name",
+    "email",
+    "phone",
+    "location",
+    "nationality",
+    "current_title",
+    "seniority",
+    "summary",
+    "skills",
+    "languages",
+    "education",
+    "certifications",
+    "courses",
+    "achievements",
+    "experience"
+  ],
+  "properties": {
+    "full_name": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Candidate's full name in English (transliterate if written in Arabic). null only if no name is found."
+    },
+    "email": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Email address exactly as written. null if not present."
+    },
+    "phone": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Primary phone number as written. null if not present."
+    },
+    "location": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Candidate's stated location as 'City, Country' in English. Only if explicitly stated in the CV. Do not infer from phone codes or employer locations."
+    },
+    "nationality": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Nationality ONLY if explicitly stated in the CV. Never infer from name, location, or language. null otherwise."
+    },
+    "current_title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Most recent or current job title in English. null if no work experience."
+    },
+    "seniority": {
+      "type": "string",
+      "enum": [
+        "junior",
+        "mid",
+        "senior",
+        "lead",
+        "manager",
+        "director",
+        "executive"
+      ],
+      "description": "Overall seniority based on total experience and highest role held. junior: 0-2 yrs, mid: 2-5 yrs, senior: 5+ yrs individual contributor, lead: team lead/supervisor, manager: department manager, director: head of function, executive: VP or C-level. If job dates are missing but durations are stated in text ('4 years', 'لمدة سنتين'), use the stated durations for the experience estimate. A supervisory role with multi-year stated tenure is at least 'lead' even without dates."
+    },
+    "summary": {
+      "type": "string",
+      "description": "A 2-3 sentence factual English summary written by you: specialization, approximate years of experience, key tools and domains. No marketing language, facts only."
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "All technical skills, tools, and technologies mentioned ANYWHERE in the CV including inside job descriptions. Lowercase English, deduplicated. Exclude generic soft skills (teamwork, communication, time management, etc.). Exclude aspirational wording: 'willing to learn X', 'basics of X', 'currently learning X' are NOT skills."
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "lang",
+          "level"
+        ],
+        "properties": {
+          "lang": {
+            "type": "string",
+            "description": "Language name in lowercase English, e.g. 'arabic', 'english'."
+          },
+          "level": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "basic",
+              "good",
+              "fluent",
+              "native",
+              "unstated",
+              null
+            ],
+            "description": "The stated proficiency mapped to the closest level. Mapping examples: 'mother tongue' -> native, 'professional working proficiency' -> good, 'intermediate' -> good, 'conversational' -> basic, 'IELTS 6-7' -> good, 'IELTS 7.5+' -> fluent. If the CV lists the language but gives NO proficiency level, use \"unstated\" -- never guess a level."
+          }
+        }
+      },
+      "description": "Languages explicitly listed in the CV. Empty array if none listed."
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "degree",
+          "field",
+          "institution",
+          "year"
+        ],
+        "properties": {
+          "degree": {
+            "type": "string",
+            "enum": [
+              "high_school",
+              "diploma",
+              "bachelor",
+              "master",
+              "phd"
+            ],
+            "description": "Closest degree level."
+          },
+          "field": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Field of study in English. null if not stated."
+          },
+          "institution": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Institution name in English. null if not stated."
+          },
+          "year": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Graduation year as a 4-digit Gregorian integer. Hijri years (1350-1470) must be converted to Gregorian: CE = round(AH x 0.9702 + 621.6), e.g. 1443 -> 2021. Never store a Hijri year as-is and never null a convertible one. null if not stated."
+          }
+        }
+      },
+      "description": "Academic qualifications, highest first."
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "status"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Certification name as written, e.g. 'PMP', 'SOCPA', 'CISSP', 'IELTS 6.5', 'SCE membership'."
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "completed",
+              "ongoing"
+            ],
+            "description": "completed is the DEFAULT -- assume completed unless the CV contains explicit in-progress wording for THIS item (in progress, candidate, preparing for, studying for, قيد التحضير, قيد الدراسة). Exception: official level titles such as 'CFA Level 2 candidate' mean the PREVIOUS level was passed -- keep the name as written and mark completed."
+          }
+        }
+      },
+      "description": "Professional certifications and licenses only (PMP, SOCPA, CISSP, GRP, SCE membership, IELTS with score). NEVER include training courses or workshops -- those go in 'courses'. Any item listed under a 'Training' or 'Courses' heading goes to 'courses' even if it sounds professional; when unsure, use 'courses'. Do not include academic degrees. Empty array if none."
+    },
+    "courses": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Training courses, workshops, and short programs (e.g. 'OSHA course', 'Solidworks Essentials', 'Professional Excel Course'). Items under a Training/Courses heading belong here even when they sound like certifications. Empty array if none."
+    },
+    "achievements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Achievements from a standalone or general 'Achievements' section that is NOT attached to any specific job. Copy the claims faithfully as written. If every achievement clearly belongs to a specific job, leave this empty and keep them inside that job's achievements. NEVER drop an achievement just because it is not linked to a job."
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "company",
+          "industry",
+          "job_family",
+          "from",
+          "to",
+          "responsibilities",
+          "achievements",
+          "tools_used"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Job title in English (translate if written in Arabic)."
+          },
+          "company": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Employer name as written. null if not stated."
+          },
+          "industry": {
+            "type": "string",
+            "enum": [
+              "government",
+              "banking_finance",
+              "insurance",
+              "technology",
+              "telecom",
+              "construction_real_estate",
+              "engineering_consultancy",
+              "oil_gas",
+              "petrochemicals_chemicals",
+              "energy_utilities",
+              "manufacturing",
+              "mining",
+              "retail_ecommerce",
+              "trading_distribution",
+              "healthcare",
+              "pharmaceuticals",
+              "education",
+              "hospitality_tourism",
+              "media_entertainment",
+              "logistics_transportation",
+              "agriculture_food",
+              "professional_services",
+              "nonprofit",
+              "defense_security",
+              "unknown"
+            ],
+            "description": "Industry of the EMPLOYER for THIS job -- never the client and never the job title. A contractor executing a project for an electricity company is NOT energy_utilities; a 'Bank Accountant' at a holding or contracting group is NOT banking_finance. An advertising or marketing agency employer is media_entertainment (industry and job_family are separate menus). Use 'unknown' if the company cannot be identified confidently. Never guess."
+          },
+          "job_family": {
+            "type": "string",
+            "enum": [
+              "software_engineering",
+              "data_analytics",
+              "it_support_infrastructure",
+              "cybersecurity",
+              "gis_geospatial",
+              "civil_engineering",
+              "mechanical_engineering",
+              "electrical_engineering",
+              "architecture_design",
+              "quality_hse",
+              "project_management",
+              "hr",
+              "finance_accounting",
+              "sales",
+              "marketing",
+              "procurement_supply_chain",
+              "operations_admin",
+              "customer_service",
+              "legal_compliance",
+              "healthcare",
+              "education_training",
+              "security_facilities",
+              "other"
+            ],
+            "description": "Classify based on the actual work performed in this job, not the company's industry. When the job TITLE and the RESPONSIBILITIES disagree, the responsibilities ALWAYS win: an inflated title ('Sales Manager' whose tasks are running a small shop) and a modest title ('Officer' doing full department work) are both classified by what the tasks describe, never by the title alone. Use 'other' only if nothing fits."
+          },
+          "from": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Start date. Use YYYY-MM when a month is written (e.g. 'Mar 2020' -> '2020-03'). If ONLY a year is written, use the bare year 'YYYY' -- NEVER invent a month such as -01. Hijri years (1350-1470) must be converted to Gregorian: CE = round(AH x 0.9702 + 621.6), e.g. 1443 -> 2021. Never store a Hijri year as-is and never null a convertible one. null if no date is given.",
+            "pattern": "^\\d{4}(-\\d{2})?$"
+          },
+          "to": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "End date. Use YYYY-MM when a month is written. If ONLY a year is written, use the bare year 'YYYY' -- NEVER invent -12. Hijri years (1350-1470) must be converted to Gregorian: CE = round(AH x 0.9702 + 621.6), e.g. 1443 -> 2021. Never store a Hijri year as-is and never null a convertible one. null if this is the current job (Present, Current, or equivalent).",
+            "pattern": "^\\d{4}(-\\d{2})?$"
+          },
+          "responsibilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "3-6 short English sentences, each starting with an action verb, cleanly rewritten from the CV. Include ONLY responsibilities explicitly attributed to THIS job. If the CV lists responsibilities without clearly linking them to a specific job, assign them only to the job they clearly belong to and leave other jobs' arrays empty. Never invent or infer responsibilities."
+          },
+          "achievements": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Only quantified or measurable achievements (numbers, percentages, amounts) explicitly stated for this job. Routine workload volumes (patients per day, interviews per week, calls handled) are responsibilities, NOT achievements, even when quantified -- achievements are outcomes: improvements, reductions, awards, targets exceeded. Empty array if none."
+          },
+          "tools_used": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Tools and technologies explicitly mentioned within this job's description. Lowercase English. Empty array if none."
+          }
+        }
+      },
+      "description": "One entry per job, most recent first. Include internships and training positions."
+    }
+  }
+}

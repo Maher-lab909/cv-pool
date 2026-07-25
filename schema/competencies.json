@@ -1,0 +1,1962 @@
+{
+  "software_engineering": [
+    {
+      "id": "backend_development",
+      "label_en": "Backend Development",
+      "label_ar": "تطوير الأنظمة الخلفية"
+    },
+    {
+      "id": "frontend_development",
+      "label_en": "Frontend Development",
+      "label_ar": "تطوير الواجهات الأمامية"
+    },
+    {
+      "id": "fullstack_development",
+      "label_en": "Full Stack Development",
+      "label_ar": "التطوير المتكامل"
+    },
+    {
+      "id": "mobile_development",
+      "label_en": "Mobile App Development",
+      "label_ar": "تطوير تطبيقات الجوال"
+    },
+    {
+      "id": "api_design_integration",
+      "label_en": "API Design & Integration",
+      "label_ar": "تصميم وتكامل الواجهات البرمجية"
+    },
+    {
+      "id": "database_design_management",
+      "label_en": "Database Design & Management",
+      "label_ar": "تصميم وإدارة قواعد البيانات"
+    },
+    {
+      "id": "system_architecture",
+      "label_en": "System Architecture",
+      "label_ar": "تصميم معمارية الأنظمة"
+    },
+    {
+      "id": "microservices",
+      "label_en": "Microservices Architecture",
+      "label_ar": "معمارية الخدمات المصغرة"
+    },
+    {
+      "id": "devops_cicd",
+      "label_en": "DevOps & CI/CD",
+      "label_ar": "DevOps وخطوط النشر الآلي"
+    },
+    {
+      "id": "cloud_infrastructure",
+      "label_en": "Cloud Infrastructure",
+      "label_ar": "البنية التحتية السحابية"
+    },
+    {
+      "id": "containerization",
+      "label_en": "Containerization (Docker/K8s)",
+      "label_ar": "الحاويات والتنسيق"
+    },
+    {
+      "id": "automated_testing_qa",
+      "label_en": "Automated Testing & QA",
+      "label_ar": "الاختبار الآلي وضمان الجودة"
+    },
+    {
+      "id": "manual_testing",
+      "label_en": "Manual Testing",
+      "label_ar": "الاختبار اليدوي"
+    },
+    {
+      "id": "code_review",
+      "label_en": "Code Review",
+      "label_ar": "مراجعة الكود"
+    },
+    {
+      "id": "performance_optimization",
+      "label_en": "Performance Optimization",
+      "label_ar": "تحسين الأداء"
+    },
+    {
+      "id": "application_security",
+      "label_en": "Application Security",
+      "label_ar": "أمان التطبيقات"
+    },
+    {
+      "id": "game_development",
+      "label_en": "Game Development",
+      "label_ar": "تطوير الألعاب"
+    },
+    {
+      "id": "embedded_systems",
+      "label_en": "Embedded Systems",
+      "label_ar": "الأنظمة المدمجة"
+    },
+    {
+      "id": "desktop_applications",
+      "label_en": "Desktop Applications",
+      "label_ar": "تطبيقات سطح المكتب"
+    },
+    {
+      "id": "low_code_development",
+      "label_en": "Low-Code Development",
+      "label_ar": "التطوير منخفض الكود"
+    },
+    {
+      "id": "systems_integration",
+      "label_en": "Systems Integration",
+      "label_ar": "تكامل الأنظمة"
+    },
+    {
+      "id": "technical_documentation",
+      "label_en": "Technical Documentation",
+      "label_ar": "التوثيق التقني"
+    },
+    {
+      "id": "requirements_analysis",
+      "label_en": "Requirements Analysis",
+      "label_ar": "تحليل المتطلبات"
+    },
+    {
+      "id": "agile_scrum",
+      "label_en": "Agile / Scrum",
+      "label_ar": "أجايل وسكرم"
+    },
+    {
+      "id": "team_leadership",
+      "label_en": "Team Leadership",
+      "label_ar": "قيادة الفريق"
+    },
+    {
+      "id": "mentoring",
+      "label_en": "Mentoring",
+      "label_ar": "الإرشاد التقني"
+    }
+  ],
+  "data_analytics": [
+    {
+      "id": "data_analysis",
+      "label_en": "Data Analysis",
+      "label_ar": "تحليل البيانات"
+    },
+    {
+      "id": "business_intelligence",
+      "label_en": "Business Intelligence",
+      "label_ar": "ذكاء الأعمال"
+    },
+    {
+      "id": "dashboard_development",
+      "label_en": "Dashboard Development",
+      "label_ar": "تطوير لوحات المعلومات"
+    },
+    {
+      "id": "data_visualization",
+      "label_en": "Data Visualization",
+      "label_ar": "تمثيل البيانات بصرياً"
+    },
+    {
+      "id": "etl_data_pipelines",
+      "label_en": "ETL & Data Pipelines",
+      "label_ar": "خطوط معالجة البيانات"
+    },
+    {
+      "id": "data_warehousing",
+      "label_en": "Data Warehousing",
+      "label_ar": "مستودعات البيانات"
+    },
+    {
+      "id": "data_modeling",
+      "label_en": "Data Modeling",
+      "label_ar": "نمذجة البيانات"
+    },
+    {
+      "id": "machine_learning",
+      "label_en": "Machine Learning",
+      "label_ar": "تعلم الآلة"
+    },
+    {
+      "id": "deep_learning",
+      "label_en": "Deep Learning",
+      "label_ar": "التعلم العميق"
+    },
+    {
+      "id": "nlp",
+      "label_en": "Natural Language Processing",
+      "label_ar": "معالجة اللغة الطبيعية"
+    },
+    {
+      "id": "computer_vision",
+      "label_en": "Computer Vision",
+      "label_ar": "الرؤية الحاسوبية"
+    },
+    {
+      "id": "predictive_analytics",
+      "label_en": "Predictive Analytics",
+      "label_ar": "التحليلات التنبؤية"
+    },
+    {
+      "id": "statistical_analysis",
+      "label_en": "Statistical Analysis",
+      "label_ar": "التحليل الإحصائي"
+    },
+    {
+      "id": "big_data_processing",
+      "label_en": "Big Data Processing",
+      "label_ar": "معالجة البيانات الضخمة"
+    },
+    {
+      "id": "mlops_model_deployment",
+      "label_en": "MLOps & Model Deployment",
+      "label_ar": "نشر وتشغيل النماذج"
+    },
+    {
+      "id": "data_governance",
+      "label_en": "Data Governance",
+      "label_ar": "حوكمة البيانات"
+    },
+    {
+      "id": "data_quality_management",
+      "label_en": "Data Quality Management",
+      "label_ar": "إدارة جودة البيانات"
+    },
+    {
+      "id": "reporting_automation",
+      "label_en": "Reporting Automation",
+      "label_ar": "أتمتة التقارير"
+    },
+    {
+      "id": "kpi_tracking",
+      "label_en": "KPI Definition & Tracking",
+      "label_ar": "بناء ومتابعة مؤشرات الأداء"
+    },
+    {
+      "id": "ab_testing",
+      "label_en": "A/B Testing & Experimentation",
+      "label_ar": "التجارب واختبارات A/B"
+    }
+  ],
+  "it_support_infrastructure": [
+    {
+      "id": "helpdesk_support",
+      "label_en": "Help Desk Support",
+      "label_ar": "الدعم الفني المباشر"
+    },
+    {
+      "id": "desktop_endpoint_support",
+      "label_en": "Desktop & Endpoint Support",
+      "label_ar": "دعم الأجهزة والمستخدمين"
+    },
+    {
+      "id": "network_administration",
+      "label_en": "Network Administration",
+      "label_ar": "إدارة الشبكات"
+    },
+    {
+      "id": "network_design",
+      "label_en": "Network Design",
+      "label_ar": "تصميم الشبكات"
+    },
+    {
+      "id": "windows_server_administration",
+      "label_en": "Windows Server Administration",
+      "label_ar": "إدارة خوادم ويندوز"
+    },
+    {
+      "id": "linux_administration",
+      "label_en": "Linux Administration",
+      "label_ar": "إدارة أنظمة لينكس"
+    },
+    {
+      "id": "virtualization",
+      "label_en": "Virtualization",
+      "label_ar": "الأنظمة الافتراضية"
+    },
+    {
+      "id": "cloud_administration",
+      "label_en": "Cloud Administration",
+      "label_ar": "إدارة الخدمات السحابية"
+    },
+    {
+      "id": "active_directory",
+      "label_en": "Active Directory Management",
+      "label_ar": "إدارة Active Directory"
+    },
+    {
+      "id": "email_collaboration_systems",
+      "label_en": "Email & Collaboration Systems",
+      "label_ar": "أنظمة البريد والتعاون"
+    },
+    {
+      "id": "backup_disaster_recovery",
+      "label_en": "Backup & Disaster Recovery",
+      "label_ar": "النسخ الاحتياطي واستعادة الكوارث"
+    },
+    {
+      "id": "database_administration",
+      "label_en": "Database Administration",
+      "label_ar": "إدارة قواعد البيانات"
+    },
+    {
+      "id": "erp_implementation_support",
+      "label_en": "ERP Implementation & Support",
+      "label_ar": "تطبيق ودعم أنظمة ERP"
+    },
+    {
+      "id": "itil_service_management",
+      "label_en": "ITIL Service Management",
+      "label_ar": "إدارة الخدمات التقنية ITIL"
+    },
+    {
+      "id": "it_asset_management",
+      "label_en": "IT Asset Management",
+      "label_ar": "إدارة الأصول التقنية"
+    },
+    {
+      "id": "voip_telephony",
+      "label_en": "VoIP & Telephony",
+      "label_ar": "أنظمة الاتصال الهاتفي"
+    },
+    {
+      "id": "datacenter_operations",
+      "label_en": "Data Center Operations",
+      "label_ar": "تشغيل مراكز البيانات"
+    },
+    {
+      "id": "system_monitoring",
+      "label_en": "System Monitoring",
+      "label_ar": "مراقبة الأنظمة"
+    },
+    {
+      "id": "it_vendor_management",
+      "label_en": "IT Vendor Management",
+      "label_ar": "إدارة الموردين التقنيين"
+    },
+    {
+      "id": "it_documentation_policies",
+      "label_en": "IT Documentation & Policies",
+      "label_ar": "التوثيق والسياسات التقنية"
+    }
+  ],
+  "cybersecurity": [
+    {
+      "id": "soc_operations",
+      "label_en": "SOC Operations",
+      "label_ar": "عمليات مركز الأمن السيبراني"
+    },
+    {
+      "id": "incident_response",
+      "label_en": "Incident Response",
+      "label_ar": "الاستجابة للحوادث"
+    },
+    {
+      "id": "threat_hunting",
+      "label_en": "Threat Hunting",
+      "label_ar": "صيد التهديدات"
+    },
+    {
+      "id": "vulnerability_assessment",
+      "label_en": "Vulnerability Assessment",
+      "label_ar": "تقييم الثغرات"
+    },
+    {
+      "id": "penetration_testing",
+      "label_en": "Penetration Testing",
+      "label_ar": "اختبار الاختراق"
+    },
+    {
+      "id": "security_architecture",
+      "label_en": "Security Architecture",
+      "label_ar": "هندسة الأمن السيبراني"
+    },
+    {
+      "id": "network_security",
+      "label_en": "Network Security",
+      "label_ar": "أمن الشبكات"
+    },
+    {
+      "id": "application_security",
+      "label_en": "Application Security",
+      "label_ar": "أمان التطبيقات"
+    },
+    {
+      "id": "cloud_security",
+      "label_en": "Cloud Security",
+      "label_ar": "الأمن السحابي"
+    },
+    {
+      "id": "identity_access_management",
+      "label_en": "Identity & Access Management",
+      "label_ar": "إدارة الهويات والصلاحيات"
+    },
+    {
+      "id": "grc",
+      "label_en": "Governance, Risk & Compliance",
+      "label_ar": "الحوكمة والمخاطر والالتزام"
+    },
+    {
+      "id": "nca_compliance",
+      "label_en": "NCA / ECC Compliance",
+      "label_ar": "الالتزام بضوابط الهيئة الوطنية للأمن السيبراني"
+    },
+    {
+      "id": "siem_management",
+      "label_en": "SIEM Management",
+      "label_ar": "إدارة أنظمة المراقبة SIEM"
+    },
+    {
+      "id": "digital_forensics",
+      "label_en": "Digital Forensics",
+      "label_ar": "التحقيق الجنائي الرقمي"
+    },
+    {
+      "id": "security_awareness",
+      "label_en": "Security Awareness Training",
+      "label_ar": "التوعية الأمنية"
+    },
+    {
+      "id": "security_auditing",
+      "label_en": "Security Auditing",
+      "label_ar": "التدقيق الأمني"
+    },
+    {
+      "id": "data_protection_privacy",
+      "label_en": "Data Protection & Privacy",
+      "label_ar": "حماية البيانات والخصوصية"
+    },
+    {
+      "id": "red_teaming",
+      "label_en": "Red Teaming",
+      "label_ar": "عمليات الفريق الأحمر"
+    }
+  ],
+  "gis_geospatial": [
+    {
+      "id": "spatial_data_management",
+      "label_en": "Spatial Data Management",
+      "label_ar": "إدارة البيانات المكانية"
+    },
+    {
+      "id": "spatial_analysis",
+      "label_en": "Spatial Analysis",
+      "label_ar": "التحليل المكاني"
+    },
+    {
+      "id": "spatiotemporal_analysis",
+      "label_en": "Spatiotemporal Analysis",
+      "label_ar": "التحليل الزماني المكاني"
+    },
+    {
+      "id": "cartography_map_production",
+      "label_en": "Cartography & Map Production",
+      "label_ar": "إنتاج الخرائط"
+    },
+    {
+      "id": "topographic_mapping",
+      "label_en": "Topographic Mapping",
+      "label_ar": "الخرائط الطبوغرافية"
+    },
+    {
+      "id": "remote_sensing",
+      "label_en": "Remote Sensing",
+      "label_ar": "الاستشعار عن بعد"
+    },
+    {
+      "id": "satellite_image_analysis",
+      "label_en": "Satellite Image Analysis",
+      "label_ar": "تحليل الصور الفضائية"
+    },
+    {
+      "id": "geodatabase_management",
+      "label_en": "Geodatabase Management",
+      "label_ar": "إدارة قواعد البيانات الجغرافية"
+    },
+    {
+      "id": "data_format_conversion",
+      "label_en": "Spatial Data Format Conversion",
+      "label_ar": "تحويل صيغ البيانات المكانية"
+    },
+    {
+      "id": "field_data_collection",
+      "label_en": "Field Data Collection",
+      "label_ar": "جمع البيانات الميدانية"
+    },
+    {
+      "id": "gps_surveying",
+      "label_en": "GPS / GNSS Surveying",
+      "label_ar": "المساحة بأنظمة الملاحة"
+    },
+    {
+      "id": "land_surveying",
+      "label_en": "Land Surveying",
+      "label_ar": "المساحة الأرضية"
+    },
+    {
+      "id": "web_gis",
+      "label_en": "Web GIS Development",
+      "label_ar": "تطوير GIS على الويب"
+    },
+    {
+      "id": "gis_3d_modeling",
+      "label_en": "3D GIS Modeling",
+      "label_ar": "النمذجة ثلاثية الأبعاد"
+    },
+    {
+      "id": "geocoding_addressing",
+      "label_en": "Geocoding & Addressing",
+      "label_ar": "العنونة والترقيم الجغرافي"
+    },
+    {
+      "id": "drone_photogrammetry",
+      "label_en": "Drone Mapping & Photogrammetry",
+      "label_ar": "التصوير الجوي والمساحة التصويرية"
+    },
+    {
+      "id": "lidar_processing",
+      "label_en": "LiDAR Processing",
+      "label_ar": "معالجة بيانات الليدار"
+    },
+    {
+      "id": "utility_mapping",
+      "label_en": "Utility & Asset Mapping",
+      "label_ar": "رفع وخرائط المرافق"
+    },
+    {
+      "id": "urban_planning_support",
+      "label_en": "Urban Planning Support",
+      "label_ar": "دعم التخطيط العمراني"
+    }
+  ],
+  "civil_engineering": [
+    {
+      "id": "structural_design",
+      "label_en": "Structural Design",
+      "label_ar": "التصميم الإنشائي"
+    },
+    {
+      "id": "structural_analysis",
+      "label_en": "Structural Analysis",
+      "label_ar": "التحليل الإنشائي"
+    },
+    {
+      "id": "site_supervision",
+      "label_en": "Site Supervision",
+      "label_ar": "الإشراف الميداني"
+    },
+    {
+      "id": "construction_management",
+      "label_en": "Construction Management",
+      "label_ar": "إدارة الإنشاءات"
+    },
+    {
+      "id": "quantity_surveying",
+      "label_en": "Quantity Surveying",
+      "label_ar": "حساب الكميات"
+    },
+    {
+      "id": "cost_estimation",
+      "label_en": "Cost Estimation",
+      "label_ar": "تقدير التكاليف"
+    },
+    {
+      "id": "boq_preparation",
+      "label_en": "BOQ Preparation",
+      "label_ar": "إعداد جداول الكميات"
+    },
+    {
+      "id": "road_infrastructure_design",
+      "label_en": "Road & Infrastructure Design",
+      "label_ar": "تصميم الطرق والبنية التحتية"
+    },
+    {
+      "id": "water_wastewater_systems",
+      "label_en": "Water & Wastewater Systems",
+      "label_ar": "أنظمة المياه والصرف الصحي"
+    },
+    {
+      "id": "geotechnical_engineering",
+      "label_en": "Geotechnical Engineering",
+      "label_ar": "الهندسة الجيوتقنية"
+    },
+    {
+      "id": "concrete_steel_design",
+      "label_en": "Concrete & Steel Design",
+      "label_ar": "تصميم الخرسانة والمنشآت المعدنية"
+    },
+    {
+      "id": "shop_drawings",
+      "label_en": "Shop Drawings",
+      "label_ar": "الرسومات التنفيذية"
+    },
+    {
+      "id": "tender_documentation",
+      "label_en": "Tender Documentation",
+      "label_ar": "إعداد مستندات المناقصات"
+    },
+    {
+      "id": "contracts_claims",
+      "label_en": "Contracts & Claims",
+      "label_ar": "العقود والمطالبات"
+    },
+    {
+      "id": "supervision_consultancy",
+      "label_en": "Supervision Consultancy",
+      "label_ar": "الاستشارات والإشراف الهندسي"
+    },
+    {
+      "id": "material_testing_qc",
+      "label_en": "Material Testing & QC",
+      "label_ar": "فحص المواد وضبط الجودة"
+    },
+    {
+      "id": "setting_out_surveying",
+      "label_en": "Setting Out & Surveying",
+      "label_ar": "أعمال التوقيع المساحي"
+    },
+    {
+      "id": "value_engineering",
+      "label_en": "Value Engineering",
+      "label_ar": "الهندسة القيمية"
+    },
+    {
+      "id": "as_built_documentation",
+      "label_en": "As-Built Documentation",
+      "label_ar": "مخططات ما بعد التنفيذ"
+    },
+    {
+      "id": "municipal_permits",
+      "label_en": "Municipal Permits & Licensing",
+      "label_ar": "التراخيص والرخص البلدية"
+    },
+    {
+      "id": "project_planning_scheduling",
+      "label_en": "Project Planning & Scheduling",
+      "label_ar": "التخطيط والجدولة"
+    },
+    {
+      "id": "team_leadership",
+      "label_en": "Team Leadership",
+      "label_ar": "قيادة الفريق"
+    }
+  ],
+  "mechanical_engineering": [
+    {
+      "id": "hvac_design",
+      "label_en": "HVAC Design",
+      "label_ar": "تصميم التكييف والتهوية"
+    },
+    {
+      "id": "plumbing_firefighting_design",
+      "label_en": "Plumbing & Firefighting Design",
+      "label_ar": "تصميم السباكة ومكافحة الحريق"
+    },
+    {
+      "id": "mechanical_maintenance",
+      "label_en": "Mechanical Maintenance",
+      "label_ar": "الصيانة الميكانيكية"
+    },
+    {
+      "id": "preventive_maintenance",
+      "label_en": "Preventive Maintenance Planning",
+      "label_ar": "تخطيط الصيانة الوقائية"
+    },
+    {
+      "id": "rotating_equipment",
+      "label_en": "Rotating Equipment",
+      "label_ar": "المعدات الدوارة"
+    },
+    {
+      "id": "piping_design",
+      "label_en": "Piping Design",
+      "label_ar": "تصميم الأنابيب"
+    },
+    {
+      "id": "pumps_compressors",
+      "label_en": "Pumps & Compressors",
+      "label_ar": "المضخات والضواغط"
+    },
+    {
+      "id": "installation_commissioning",
+      "label_en": "Installation & Commissioning",
+      "label_ar": "التركيب والتشغيل"
+    },
+    {
+      "id": "facilities_maintenance",
+      "label_en": "Facilities Maintenance",
+      "label_ar": "صيانة المرافق"
+    },
+    {
+      "id": "mechanical_drafting",
+      "label_en": "Mechanical Drafting & Modeling",
+      "label_ar": "الرسم والنمذجة الميكانيكية"
+    },
+    {
+      "id": "manufacturing_production_engineering",
+      "label_en": "Manufacturing & Production Engineering",
+      "label_ar": "هندسة الإنتاج والتصنيع"
+    },
+    {
+      "id": "welding_fabrication",
+      "label_en": "Welding & Fabrication",
+      "label_ar": "اللحام والتصنيع المعدني"
+    },
+    {
+      "id": "automotive_maintenance",
+      "label_en": "Automotive Maintenance",
+      "label_ar": "صيانة المركبات"
+    },
+    {
+      "id": "energy_efficiency",
+      "label_en": "Energy Efficiency Systems",
+      "label_ar": "كفاءة الطاقة"
+    },
+    {
+      "id": "shutdown_turnaround",
+      "label_en": "Shutdown & Turnaround Maintenance",
+      "label_ar": "أعمال الإيقاف والصيانة الشاملة"
+    },
+    {
+      "id": "spare_parts_management",
+      "label_en": "Spare Parts Management",
+      "label_ar": "إدارة قطع الغيار"
+    },
+    {
+      "id": "quality_inspection_mechanical",
+      "label_en": "Mechanical Quality Inspection",
+      "label_ar": "الفحص الميكانيكي"
+    }
+  ],
+  "electrical_engineering": [
+    {
+      "id": "power_distribution_design",
+      "label_en": "Power Distribution Design",
+      "label_ar": "تصميم توزيع الطاقة"
+    },
+    {
+      "id": "low_current_elv",
+      "label_en": "Low Current / ELV Systems",
+      "label_ar": "أنظمة التيار الخفيف"
+    },
+    {
+      "id": "electrical_installation_supervision",
+      "label_en": "Electrical Installation Supervision",
+      "label_ar": "الإشراف على التمديدات الكهربائية"
+    },
+    {
+      "id": "plc_scada_control",
+      "label_en": "PLC / SCADA Control Systems",
+      "label_ar": "أنظمة التحكم الآلي"
+    },
+    {
+      "id": "instrumentation_calibration",
+      "label_en": "Instrumentation & Calibration",
+      "label_ar": "الأجهزة الدقيقة والمعايرة"
+    },
+    {
+      "id": "lighting_design",
+      "label_en": "Lighting Design",
+      "label_ar": "تصميم الإنارة"
+    },
+    {
+      "id": "load_calculation_cable_sizing",
+      "label_en": "Load Calculation & Cable Sizing",
+      "label_ar": "حساب الأحمال ومقاسات الكوابل"
+    },
+    {
+      "id": "substations_transformers",
+      "label_en": "Substations & Transformers",
+      "label_ar": "المحطات والمحولات"
+    },
+    {
+      "id": "solar_renewable_energy",
+      "label_en": "Solar & Renewable Energy",
+      "label_ar": "الطاقة الشمسية والمتجددة"
+    },
+    {
+      "id": "electrical_maintenance",
+      "label_en": "Electrical Maintenance",
+      "label_ar": "الصيانة الكهربائية"
+    },
+    {
+      "id": "panel_design_testing",
+      "label_en": "Panel Design & Testing",
+      "label_ar": "تصميم واختبار اللوحات الكهربائية"
+    },
+    {
+      "id": "fire_alarm_security_systems",
+      "label_en": "Fire Alarm & Security Systems",
+      "label_ar": "أنظمة الإنذار والأمن"
+    },
+    {
+      "id": "bms_building_management",
+      "label_en": "Building Management Systems (BMS)",
+      "label_ar": "أنظمة إدارة المباني"
+    },
+    {
+      "id": "testing_commissioning_electrical",
+      "label_en": "Testing & Commissioning",
+      "label_ar": "الاختبار والتشغيل الكهربائي"
+    },
+    {
+      "id": "motors_drives",
+      "label_en": "Motors & Drives",
+      "label_ar": "المحركات وأنظمة التحكم بالسرعة"
+    },
+    {
+      "id": "power_quality",
+      "label_en": "Power Quality Analysis",
+      "label_ar": "جودة الطاقة"
+    }
+  ],
+  "architecture_design": [
+    {
+      "id": "architectural_design",
+      "label_en": "Architectural Design",
+      "label_ar": "التصميم المعماري"
+    },
+    {
+      "id": "concept_design",
+      "label_en": "Concept & Schematic Design",
+      "label_ar": "التصميم المبدئي والتطويري"
+    },
+    {
+      "id": "interior_design",
+      "label_en": "Interior Design",
+      "label_ar": "التصميم الداخلي"
+    },
+    {
+      "id": "landscape_design",
+      "label_en": "Landscape Design",
+      "label_ar": "تصميم المواقع واللاندسكيب"
+    },
+    {
+      "id": "urban_planning_design",
+      "label_en": "Urban Planning & Design",
+      "label_ar": "التخطيط والتصميم العمراني"
+    },
+    {
+      "id": "bim_modeling",
+      "label_en": "BIM Modeling",
+      "label_ar": "نمذجة معلومات البناء BIM"
+    },
+    {
+      "id": "visualization_3d",
+      "label_en": "3D Visualization & Rendering",
+      "label_ar": "الإخراج والتصور ثلاثي الأبعاد"
+    },
+    {
+      "id": "construction_documentation",
+      "label_en": "Construction Documentation",
+      "label_ar": "المخططات التنفيذية"
+    },
+    {
+      "id": "building_code_compliance",
+      "label_en": "Building Code Compliance",
+      "label_ar": "الالتزام بكود البناء"
+    },
+    {
+      "id": "master_planning",
+      "label_en": "Master Planning",
+      "label_ar": "المخططات الشاملة"
+    },
+    {
+      "id": "space_planning",
+      "label_en": "Space Planning",
+      "label_ar": "تخطيط الفراغات"
+    },
+    {
+      "id": "facade_design",
+      "label_en": "Facade Design",
+      "label_ar": "تصميم الواجهات"
+    },
+    {
+      "id": "sustainable_design",
+      "label_en": "Sustainable Design & Certifications",
+      "label_ar": "التصميم المستدام والاعتمادات"
+    },
+    {
+      "id": "heritage_projects",
+      "label_en": "Heritage & Conservation Projects",
+      "label_ar": "مشاريع التراث العمراني"
+    },
+    {
+      "id": "design_presentations",
+      "label_en": "Client Design Presentations",
+      "label_ar": "العروض التصميمية للعملاء"
+    }
+  ],
+  "quality_hse": [
+    {
+      "id": "hse_compliance",
+      "label_en": "HSE Compliance",
+      "label_ar": "الالتزام بالصحة والسلامة المهنية"
+    },
+    {
+      "id": "safety_inspections",
+      "label_en": "Safety Inspections & Audits",
+      "label_ar": "جولات وتفتيش السلامة"
+    },
+    {
+      "id": "incident_investigation",
+      "label_en": "Incident Investigation",
+      "label_ar": "التحقيق في الحوادث"
+    },
+    {
+      "id": "hazard_risk_assessment",
+      "label_en": "Hazard & Risk Assessment",
+      "label_ar": "تقييم المخاطر"
+    },
+    {
+      "id": "permit_to_work",
+      "label_en": "Permit to Work Systems",
+      "label_ar": "تصاريح العمل"
+    },
+    {
+      "id": "emergency_response",
+      "label_en": "Emergency Response Planning",
+      "label_ar": "خطط الطوارئ والإخلاء"
+    },
+    {
+      "id": "environmental_compliance",
+      "label_en": "Environmental Compliance",
+      "label_ar": "الالتزام البيئي"
+    },
+    {
+      "id": "iso_management_systems",
+      "label_en": "ISO Management Systems",
+      "label_ar": "أنظمة الآيزو الإدارية"
+    },
+    {
+      "id": "quality_assurance",
+      "label_en": "Quality Assurance",
+      "label_ar": "ضمان الجودة"
+    },
+    {
+      "id": "quality_control_inspection",
+      "label_en": "Quality Control & Inspection",
+      "label_ar": "مراقبة الجودة والفحص"
+    },
+    {
+      "id": "internal_external_audits",
+      "label_en": "Internal & External Audits",
+      "label_ar": "التدقيق الداخلي والخارجي"
+    },
+    {
+      "id": "ncr_capa",
+      "label_en": "Nonconformance & CAPA",
+      "label_ar": "عدم المطابقة والإجراءات التصحيحية"
+    },
+    {
+      "id": "safety_training",
+      "label_en": "Safety Training & Toolbox Talks",
+      "label_ar": "التدريب والتوعية بالسلامة"
+    },
+    {
+      "id": "contractor_safety_management",
+      "label_en": "Contractor Safety Management",
+      "label_ar": "إدارة سلامة المقاولين"
+    },
+    {
+      "id": "food_safety_haccp",
+      "label_en": "Food Safety / HACCP",
+      "label_ar": "سلامة الغذاء"
+    },
+    {
+      "id": "document_control",
+      "label_en": "Document Control",
+      "label_ar": "ضبط الوثائق"
+    },
+    {
+      "id": "waste_environmental_management",
+      "label_en": "Waste & Environmental Management",
+      "label_ar": "إدارة النفايات والبيئة"
+    }
+  ],
+  "project_management": [
+    {
+      "id": "project_planning_scheduling",
+      "label_en": "Project Planning & Scheduling",
+      "label_ar": "التخطيط والجدولة"
+    },
+    {
+      "id": "budget_cost_control",
+      "label_en": "Budget & Cost Control",
+      "label_ar": "ضبط الميزانية والتكاليف"
+    },
+    {
+      "id": "risk_management",
+      "label_en": "Risk Management",
+      "label_ar": "إدارة المخاطر"
+    },
+    {
+      "id": "stakeholder_management",
+      "label_en": "Stakeholder Management",
+      "label_ar": "إدارة أصحاب المصلحة"
+    },
+    {
+      "id": "scope_management",
+      "label_en": "Scope Management",
+      "label_ar": "إدارة نطاق العمل"
+    },
+    {
+      "id": "contract_administration",
+      "label_en": "Contract Administration",
+      "label_ar": "إدارة العقود"
+    },
+    {
+      "id": "claims_variations",
+      "label_en": "Claims & Variation Orders",
+      "label_ar": "المطالبات وأوامر التغيير"
+    },
+    {
+      "id": "pmo_governance",
+      "label_en": "PMO Governance",
+      "label_ar": "حوكمة مكاتب المشاريع"
+    },
+    {
+      "id": "agile_delivery",
+      "label_en": "Agile Project Delivery",
+      "label_ar": "إدارة المشاريع الرشيقة"
+    },
+    {
+      "id": "program_portfolio_management",
+      "label_en": "Program & Portfolio Management",
+      "label_ar": "إدارة البرامج والمحافظ"
+    },
+    {
+      "id": "resource_planning",
+      "label_en": "Resource Planning",
+      "label_ar": "تخطيط الموارد"
+    },
+    {
+      "id": "progress_reporting",
+      "label_en": "Progress Reporting",
+      "label_ar": "تقارير الإنجاز"
+    },
+    {
+      "id": "delay_analysis",
+      "label_en": "Delay Analysis",
+      "label_ar": "تحليل التأخيرات"
+    },
+    {
+      "id": "project_handover",
+      "label_en": "Project Handover & Closeout",
+      "label_ar": "التسليم والإقفال"
+    },
+    {
+      "id": "feasibility_studies",
+      "label_en": "Feasibility Studies",
+      "label_ar": "دراسات الجدوى"
+    },
+    {
+      "id": "contractor_coordination",
+      "label_en": "Contractor & Vendor Coordination",
+      "label_ar": "التنسيق مع المقاولين والموردين"
+    }
+  ],
+  "hr": [
+    {
+      "id": "recruitment_talent_acquisition",
+      "label_en": "Recruitment & Talent Acquisition",
+      "label_ar": "الاستقطاب والتوظيف"
+    },
+    {
+      "id": "interviewing_assessment",
+      "label_en": "Interviewing & Assessment",
+      "label_ar": "المقابلات والتقييم"
+    },
+    {
+      "id": "onboarding",
+      "label_en": "Onboarding",
+      "label_ar": "تهيئة الموظفين الجدد"
+    },
+    {
+      "id": "compensation_benefits",
+      "label_en": "Compensation & Benefits Administration",
+      "label_ar": "التعويضات والمزايا"
+    },
+    {
+      "id": "salary_structure_design",
+      "label_en": "Salary Structure Design",
+      "label_ar": "تصميم سلالم الرواتب"
+    },
+    {
+      "id": "job_grading_evaluation",
+      "label_en": "Job Grading & Evaluation",
+      "label_ar": "تقييم وتدريج الوظائف"
+    },
+    {
+      "id": "salary_benchmarking",
+      "label_en": "Salary Benchmarking",
+      "label_ar": "مقارنات الرواتب السوقية"
+    },
+    {
+      "id": "performance_management",
+      "label_en": "Performance Management",
+      "label_ar": "إدارة الأداء"
+    },
+    {
+      "id": "training_development",
+      "label_en": "Training & Development",
+      "label_ar": "التدريب والتطوير"
+    },
+    {
+      "id": "succession_planning",
+      "label_en": "Succession Planning",
+      "label_ar": "تخطيط التعاقب الوظيفي"
+    },
+    {
+      "id": "employee_relations",
+      "label_en": "Employee Relations",
+      "label_ar": "علاقات الموظفين"
+    },
+    {
+      "id": "hr_policies",
+      "label_en": "HR Policies & Procedures",
+      "label_ar": "السياسات والإجراءات"
+    },
+    {
+      "id": "saudization_compliance",
+      "label_en": "Saudization / Nitaqat Compliance",
+      "label_ar": "التوطين ونطاقات"
+    },
+    {
+      "id": "labor_law_gosi_compliance",
+      "label_en": "Labor Law & GOSI Compliance",
+      "label_ar": "الالتزام بنظام العمل والتأمينات"
+    },
+    {
+      "id": "hris_systems",
+      "label_en": "HRIS Systems",
+      "label_ar": "أنظمة الموارد البشرية"
+    },
+    {
+      "id": "payroll_management",
+      "label_en": "Payroll Management",
+      "label_ar": "إدارة الرواتب ومسيرها"
+    },
+    {
+      "id": "organizational_development",
+      "label_en": "Organizational Development",
+      "label_ar": "التطوير التنظيمي"
+    },
+    {
+      "id": "workforce_planning",
+      "label_en": "Workforce Planning",
+      "label_ar": "تخطيط القوى العاملة"
+    },
+    {
+      "id": "employee_engagement",
+      "label_en": "Employee Engagement",
+      "label_ar": "تفاعل ورضا الموظفين"
+    },
+    {
+      "id": "hr_analytics",
+      "label_en": "HR Analytics & Reporting",
+      "label_ar": "تحليلات الموارد البشرية"
+    }
+  ],
+  "finance_accounting": [
+    {
+      "id": "general_accounting",
+      "label_en": "General Accounting",
+      "label_ar": "المحاسبة العامة"
+    },
+    {
+      "id": "accounts_payable_receivable",
+      "label_en": "Accounts Payable & Receivable",
+      "label_ar": "الحسابات الدائنة والمدينة"
+    },
+    {
+      "id": "financial_reporting",
+      "label_en": "Financial Reporting",
+      "label_ar": "التقارير المالية"
+    },
+    {
+      "id": "ifrs_compliance",
+      "label_en": "IFRS Compliance",
+      "label_ar": "الالتزام بالمعايير الدولية"
+    },
+    {
+      "id": "budgeting_forecasting",
+      "label_en": "Budgeting & Forecasting",
+      "label_ar": "الموازنات والتنبؤ المالي"
+    },
+    {
+      "id": "financial_analysis",
+      "label_en": "Financial Analysis",
+      "label_ar": "التحليل المالي"
+    },
+    {
+      "id": "cost_accounting",
+      "label_en": "Cost Accounting",
+      "label_ar": "محاسبة التكاليف"
+    },
+    {
+      "id": "management_accounting",
+      "label_en": "Management Accounting",
+      "label_ar": "المحاسبة الإدارية"
+    },
+    {
+      "id": "treasury_cash_management",
+      "label_en": "Treasury & Cash Management",
+      "label_ar": "الخزينة وإدارة السيولة"
+    },
+    {
+      "id": "vat_zakat_tax",
+      "label_en": "VAT, Zakat & Tax",
+      "label_ar": "الضريبة والزكاة"
+    },
+    {
+      "id": "internal_audit",
+      "label_en": "Internal Audit",
+      "label_ar": "التدقيق الداخلي"
+    },
+    {
+      "id": "external_audit",
+      "label_en": "External Audit",
+      "label_ar": "التدقيق الخارجي"
+    },
+    {
+      "id": "fixed_assets",
+      "label_en": "Fixed Assets Management",
+      "label_ar": "إدارة الأصول الثابتة"
+    },
+    {
+      "id": "reconciliations",
+      "label_en": "Reconciliations",
+      "label_ar": "التسويات والمطابقات"
+    },
+    {
+      "id": "erp_financial_modules",
+      "label_en": "ERP Financial Modules",
+      "label_ar": "الأنظمة المالية ERP"
+    },
+    {
+      "id": "financial_modeling_valuation",
+      "label_en": "Financial Modeling & Valuation",
+      "label_ar": "النمذجة المالية والتقييم"
+    },
+    {
+      "id": "credit_analysis",
+      "label_en": "Credit Analysis & Collections",
+      "label_ar": "التحليل والتحصيل الائتماني"
+    },
+    {
+      "id": "investment_analysis",
+      "label_en": "Investment Analysis",
+      "label_ar": "تحليل الاستثمارات"
+    },
+    {
+      "id": "payroll_accounting",
+      "label_en": "Payroll Accounting",
+      "label_ar": "محاسبة الرواتب"
+    },
+    {
+      "id": "financial_feasibility",
+      "label_en": "Financial Feasibility Studies",
+      "label_ar": "دراسات الجدوى المالية"
+    }
+  ],
+  "sales": [
+    {
+      "id": "b2b_sales",
+      "label_en": "B2B Sales",
+      "label_ar": "مبيعات الشركات"
+    },
+    {
+      "id": "retail_sales",
+      "label_en": "Retail & Showroom Sales",
+      "label_ar": "مبيعات التجزئة والمعارض"
+    },
+    {
+      "id": "lead_generation",
+      "label_en": "Lead Generation & Prospecting",
+      "label_ar": "توليد العملاء المحتملين"
+    },
+    {
+      "id": "account_management",
+      "label_en": "Account Management",
+      "label_ar": "إدارة حسابات العملاء"
+    },
+    {
+      "id": "negotiation_closing",
+      "label_en": "Negotiation & Closing",
+      "label_ar": "التفاوض وإغلاق الصفقات"
+    },
+    {
+      "id": "tender_bid_management",
+      "label_en": "Tender & Bid Management",
+      "label_ar": "المناقصات والعطاءات"
+    },
+    {
+      "id": "channel_partner_sales",
+      "label_en": "Channel & Partner Sales",
+      "label_ar": "مبيعات القنوات والشركاء"
+    },
+    {
+      "id": "sales_forecasting",
+      "label_en": "Sales Forecasting & Pipeline",
+      "label_ar": "التوقعات وإدارة البايبلاين"
+    },
+    {
+      "id": "crm_management",
+      "label_en": "CRM Management",
+      "label_ar": "إدارة أنظمة علاقات العملاء"
+    },
+    {
+      "id": "pricing_quotations",
+      "label_en": "Pricing & Quotations",
+      "label_ar": "التسعير وعروض الأسعار"
+    },
+    {
+      "id": "territory_management",
+      "label_en": "Territory Management",
+      "label_ar": "إدارة المناطق البيعية"
+    },
+    {
+      "id": "team_leadership",
+      "label_en": "Team Leadership",
+      "label_ar": "قيادة الفريق"
+    },
+    {
+      "id": "customer_retention",
+      "label_en": "Customer Retention & Upselling",
+      "label_ar": "الاحتفاظ بالعملاء والبيع الإضافي"
+    },
+    {
+      "id": "presales_demos",
+      "label_en": "Presales & Technical Demos",
+      "label_ar": "هندسة ما قبل البيع والعروض الفنية"
+    },
+    {
+      "id": "export_sales",
+      "label_en": "Export & International Sales",
+      "label_ar": "مبيعات التصدير والدولية"
+    },
+    {
+      "id": "business_development",
+      "label_en": "Business Development",
+      "label_ar": "تطوير الأعمال"
+    }
+  ],
+  "marketing": [
+    {
+      "id": "digital_marketing",
+      "label_en": "Digital Marketing",
+      "label_ar": "التسويق الرقمي"
+    },
+    {
+      "id": "social_media_management",
+      "label_en": "Social Media Management",
+      "label_ar": "إدارة وسائل التواصل"
+    },
+    {
+      "id": "content_creation",
+      "label_en": "Content Creation & Copywriting",
+      "label_ar": "صناعة المحتوى والكتابة"
+    },
+    {
+      "id": "seo_sem",
+      "label_en": "SEO / SEM",
+      "label_ar": "تحسين محركات البحث"
+    },
+    {
+      "id": "paid_advertising",
+      "label_en": "Paid Advertising Campaigns",
+      "label_ar": "الحملات الإعلانية المدفوعة"
+    },
+    {
+      "id": "brand_management",
+      "label_en": "Brand Management",
+      "label_ar": "إدارة العلامة التجارية"
+    },
+    {
+      "id": "market_research",
+      "label_en": "Market Research",
+      "label_ar": "أبحاث السوق"
+    },
+    {
+      "id": "marketing_automation",
+      "label_en": "Marketing Automation & Email",
+      "label_ar": "أتمتة التسويق والبريد"
+    },
+    {
+      "id": "events_exhibitions",
+      "label_en": "Events & Exhibitions",
+      "label_ar": "الفعاليات والمعارض"
+    },
+    {
+      "id": "pr_media_relations",
+      "label_en": "PR & Media Relations",
+      "label_ar": "العلاقات العامة والإعلامية"
+    },
+    {
+      "id": "influencer_marketing",
+      "label_en": "Influencer Marketing",
+      "label_ar": "التسويق عبر المؤثرين"
+    },
+    {
+      "id": "graphic_design",
+      "label_en": "Graphic Design & Branding",
+      "label_ar": "التصميم الجرافيكي"
+    },
+    {
+      "id": "video_production",
+      "label_en": "Video Production & Editing",
+      "label_ar": "إنتاج ومونتاج الفيديو"
+    },
+    {
+      "id": "photography",
+      "label_en": "Photography",
+      "label_ar": "التصوير"
+    },
+    {
+      "id": "marketing_strategy",
+      "label_en": "Marketing Strategy & Planning",
+      "label_ar": "الاستراتيجية والخطط التسويقية"
+    },
+    {
+      "id": "product_marketing",
+      "label_en": "Product Marketing & Launches",
+      "label_ar": "تسويق المنتجات والإطلاقات"
+    },
+    {
+      "id": "ecommerce_marketing",
+      "label_en": "E-commerce & Marketplace Marketing",
+      "label_ar": "تسويق المتاجر الإلكترونية"
+    },
+    {
+      "id": "marketing_analytics",
+      "label_en": "Marketing Analytics",
+      "label_ar": "تحليلات التسويق"
+    }
+  ],
+  "procurement_supply_chain": [
+    {
+      "id": "purchasing_procurement",
+      "label_en": "Purchasing & Procurement",
+      "label_ar": "المشتريات"
+    },
+    {
+      "id": "vendor_sourcing",
+      "label_en": "Vendor Sourcing & Evaluation",
+      "label_ar": "البحث عن الموردين وتقييمهم"
+    },
+    {
+      "id": "supplier_negotiation",
+      "label_en": "Supplier Negotiation",
+      "label_ar": "التفاوض مع الموردين"
+    },
+    {
+      "id": "inventory_management",
+      "label_en": "Inventory Management",
+      "label_ar": "إدارة المخزون"
+    },
+    {
+      "id": "warehouse_operations",
+      "label_en": "Warehouse Operations",
+      "label_ar": "عمليات المستودعات"
+    },
+    {
+      "id": "demand_planning",
+      "label_en": "Demand Planning & Forecasting",
+      "label_ar": "تخطيط الطلب والتنبؤ"
+    },
+    {
+      "id": "logistics_coordination",
+      "label_en": "Logistics Coordination",
+      "label_ar": "تنسيق العمليات اللوجستية"
+    },
+    {
+      "id": "fleet_management",
+      "label_en": "Fleet Management",
+      "label_ar": "إدارة الأسطول"
+    },
+    {
+      "id": "customs_import_export",
+      "label_en": "Customs, Import & Export",
+      "label_ar": "التخليص الجمركي والاستيراد والتصدير"
+    },
+    {
+      "id": "supply_chain_optimization",
+      "label_en": "Supply Chain Optimization",
+      "label_ar": "تحسين سلاسل الإمداد"
+    },
+    {
+      "id": "materials_management",
+      "label_en": "Materials Management",
+      "label_ar": "إدارة المواد"
+    },
+    {
+      "id": "rfq_processing",
+      "label_en": "RFQ & Tender Processing",
+      "label_ar": "طلبات التسعير والترسية"
+    },
+    {
+      "id": "supplier_relationship",
+      "label_en": "Supplier Relationship Management",
+      "label_ar": "إدارة علاقات الموردين"
+    },
+    {
+      "id": "shipping_freight",
+      "label_en": "Shipping & Freight",
+      "label_ar": "الشحن والنقل"
+    },
+    {
+      "id": "stock_audits",
+      "label_en": "Stock Control & Audits",
+      "label_ar": "الجرد وضبط المخزون"
+    },
+    {
+      "id": "last_mile_delivery",
+      "label_en": "Last Mile Delivery Operations",
+      "label_ar": "عمليات التوصيل النهائي"
+    }
+  ],
+  "operations_admin": [
+    {
+      "id": "office_administration",
+      "label_en": "Office Administration",
+      "label_ar": "الإدارة المكتبية"
+    },
+    {
+      "id": "executive_assistance",
+      "label_en": "Executive Assistance",
+      "label_ar": "مساندة الإدارة التنفيذية"
+    },
+    {
+      "id": "document_control",
+      "label_en": "Document Control & Archiving",
+      "label_ar": "ضبط الوثائق والأرشفة"
+    },
+    {
+      "id": "government_relations",
+      "label_en": "Government Relations (PRO)",
+      "label_ar": "العلاقات الحكومية والمعاملات"
+    },
+    {
+      "id": "facilities_management",
+      "label_en": "Facilities Management",
+      "label_ar": "إدارة المرافق"
+    },
+    {
+      "id": "data_entry",
+      "label_en": "Data Entry & Records",
+      "label_ar": "إدخال البيانات والسجلات"
+    },
+    {
+      "id": "correspondence_minutes",
+      "label_en": "Correspondence & Meeting Minutes",
+      "label_ar": "المراسلات ومحاضر الاجتماعات"
+    },
+    {
+      "id": "travel_coordination",
+      "label_en": "Travel Coordination",
+      "label_ar": "تنسيق السفر والحجوزات"
+    },
+    {
+      "id": "process_improvement",
+      "label_en": "Process Improvement",
+      "label_ar": "تحسين العمليات"
+    },
+    {
+      "id": "operations_management",
+      "label_en": "Operations Management",
+      "label_ar": "إدارة العمليات"
+    },
+    {
+      "id": "branch_management",
+      "label_en": "Branch Management",
+      "label_ar": "إدارة الفروع"
+    },
+    {
+      "id": "front_desk_reception",
+      "label_en": "Front Desk & Reception",
+      "label_ar": "الاستقبال"
+    },
+    {
+      "id": "scheduling_coordination",
+      "label_en": "Scheduling & Coordination",
+      "label_ar": "التنسيق والجدولة"
+    },
+    {
+      "id": "petty_cash_expenses",
+      "label_en": "Petty Cash & Expenses",
+      "label_ar": "العهد والمصروفات"
+    },
+    {
+      "id": "administrative_reporting",
+      "label_en": "Administrative Reporting",
+      "label_ar": "التقارير الإدارية"
+    }
+  ],
+  "customer_service": [
+    {
+      "id": "call_center_operations",
+      "label_en": "Call Center Operations",
+      "label_ar": "عمليات مراكز الاتصال"
+    },
+    {
+      "id": "complaints_resolution",
+      "label_en": "Complaints Resolution",
+      "label_ar": "معالجة الشكاوى"
+    },
+    {
+      "id": "omnichannel_support",
+      "label_en": "Omnichannel Support",
+      "label_ar": "الدعم متعدد القنوات"
+    },
+    {
+      "id": "ticketing_crm_systems",
+      "label_en": "Ticketing & CRM Systems",
+      "label_ar": "أنظمة التذاكر وعلاقات العملاء"
+    },
+    {
+      "id": "customer_satisfaction",
+      "label_en": "Customer Satisfaction Programs",
+      "label_ar": "قياس رضا العملاء"
+    },
+    {
+      "id": "service_quality_monitoring",
+      "label_en": "Service Quality Monitoring",
+      "label_ar": "مراقبة جودة الخدمة"
+    },
+    {
+      "id": "escalation_management",
+      "label_en": "Escalation Management",
+      "label_ar": "إدارة التصعيدات"
+    },
+    {
+      "id": "customer_onboarding",
+      "label_en": "Customer Onboarding",
+      "label_ar": "تهيئة العملاء الجدد"
+    },
+    {
+      "id": "technical_customer_support",
+      "label_en": "Technical Customer Support",
+      "label_ar": "الدعم الفني للعملاء"
+    },
+    {
+      "id": "team_leadership",
+      "label_en": "Team Leadership",
+      "label_ar": "قيادة الفريق"
+    },
+    {
+      "id": "loyalty_retention_programs",
+      "label_en": "Loyalty & Retention Programs",
+      "label_ar": "برامج الولاء والاحتفاظ"
+    },
+    {
+      "id": "sla_management",
+      "label_en": "SLA Management",
+      "label_ar": "إدارة اتفاقيات مستوى الخدمة"
+    }
+  ],
+  "legal_compliance": [
+    {
+      "id": "contract_drafting_review",
+      "label_en": "Contract Drafting & Review",
+      "label_ar": "صياغة ومراجعة العقود"
+    },
+    {
+      "id": "corporate_legal_affairs",
+      "label_en": "Corporate Legal Affairs",
+      "label_ar": "الشؤون القانونية للشركات"
+    },
+    {
+      "id": "litigation_disputes",
+      "label_en": "Litigation & Disputes",
+      "label_ar": "التقاضي والنزاعات"
+    },
+    {
+      "id": "legal_research",
+      "label_en": "Legal Research & Opinions",
+      "label_ar": "البحث والآراء القانونية"
+    },
+    {
+      "id": "regulatory_compliance",
+      "label_en": "Regulatory Compliance",
+      "label_ar": "الالتزام التنظيمي"
+    },
+    {
+      "id": "corporate_governance",
+      "label_en": "Corporate Governance",
+      "label_ar": "الحوكمة"
+    },
+    {
+      "id": "labor_cases",
+      "label_en": "Labor Law Cases",
+      "label_ar": "القضايا العمالية"
+    },
+    {
+      "id": "commercial_law",
+      "label_en": "Commercial Law",
+      "label_ar": "القانون التجاري"
+    },
+    {
+      "id": "intellectual_property",
+      "label_en": "Intellectual Property",
+      "label_ar": "الملكية الفكرية"
+    },
+    {
+      "id": "legal_translation",
+      "label_en": "Legal Translation",
+      "label_ar": "الترجمة القانونية"
+    },
+    {
+      "id": "company_licensing",
+      "label_en": "Company Formation & Licensing",
+      "label_ar": "تأسيس الشركات والتراخيص"
+    },
+    {
+      "id": "aml_kyc",
+      "label_en": "AML / KYC Compliance",
+      "label_ar": "مكافحة غسل الأموال واعرف عميلك"
+    },
+    {
+      "id": "pdpl_data_protection",
+      "label_en": "PDPL / Data Protection",
+      "label_ar": "حماية البيانات الشخصية"
+    },
+    {
+      "id": "board_secretarial",
+      "label_en": "Board Secretarial Support",
+      "label_ar": "أمانة مجلس الإدارة"
+    }
+  ],
+  "healthcare": [
+    {
+      "id": "nursing_patient_care",
+      "label_en": "Nursing & Patient Care",
+      "label_ar": "التمريض ورعاية المرضى"
+    },
+    {
+      "id": "general_practice",
+      "label_en": "General Medical Practice",
+      "label_ar": "الطب العام"
+    },
+    {
+      "id": "specialized_practice",
+      "label_en": "Specialized Medical Practice",
+      "label_ar": "الممارسة الطبية التخصصية"
+    },
+    {
+      "id": "emergency_care",
+      "label_en": "Emergency Care",
+      "label_ar": "طب الطوارئ"
+    },
+    {
+      "id": "icu_critical_care",
+      "label_en": "ICU & Critical Care",
+      "label_ar": "العناية المركزة"
+    },
+    {
+      "id": "surgical_or",
+      "label_en": "Surgical / OR Support",
+      "label_ar": "العمليات الجراحية"
+    },
+    {
+      "id": "pharmacy_dispensing",
+      "label_en": "Pharmacy Dispensing",
+      "label_ar": "الصيدلة وصرف الأدوية"
+    },
+    {
+      "id": "clinical_pharmacy",
+      "label_en": "Clinical Pharmacy",
+      "label_ar": "الصيدلة الإكلينيكية"
+    },
+    {
+      "id": "lab_diagnostics",
+      "label_en": "Laboratory & Diagnostics",
+      "label_ar": "المختبرات والتشخيص"
+    },
+    {
+      "id": "radiology_imaging",
+      "label_en": "Radiology & Imaging",
+      "label_ar": "الأشعة والتصوير الطبي"
+    },
+    {
+      "id": "physiotherapy",
+      "label_en": "Physiotherapy & Rehabilitation",
+      "label_ar": "العلاج الطبيعي والتأهيل"
+    },
+    {
+      "id": "dental_care",
+      "label_en": "Dental Care",
+      "label_ar": "طب الأسنان"
+    },
+    {
+      "id": "medical_coding_insurance",
+      "label_en": "Medical Coding & Insurance Claims",
+      "label_ar": "الترميز الطبي والمطالبات التأمينية"
+    },
+    {
+      "id": "infection_control",
+      "label_en": "Infection Control",
+      "label_ar": "مكافحة العدوى"
+    },
+    {
+      "id": "patient_administration",
+      "label_en": "Patient Scheduling & Administration",
+      "label_ar": "تنسيق مواعيد وشؤون المرضى"
+    },
+    {
+      "id": "health_education",
+      "label_en": "Health Education & Promotion",
+      "label_ar": "التثقيف الصحي"
+    },
+    {
+      "id": "medical_records",
+      "label_en": "Medical Records Management",
+      "label_ar": "إدارة السجلات الطبية"
+    }
+  ],
+  "education_training": [
+    {
+      "id": "classroom_teaching",
+      "label_en": "Classroom Teaching",
+      "label_ar": "التدريس"
+    },
+    {
+      "id": "curriculum_development",
+      "label_en": "Curriculum Development",
+      "label_ar": "تطوير المناهج"
+    },
+    {
+      "id": "assessment_evaluation",
+      "label_en": "Assessment & Evaluation",
+      "label_ar": "التقييم والاختبارات"
+    },
+    {
+      "id": "corporate_training",
+      "label_en": "Corporate Training Delivery",
+      "label_ar": "التدريب المؤسسي"
+    },
+    {
+      "id": "elearning_development",
+      "label_en": "E-learning Content Development",
+      "label_ar": "تطوير المحتوى التعليمي الإلكتروني"
+    },
+    {
+      "id": "training_needs_analysis",
+      "label_en": "Training Needs Analysis",
+      "label_ar": "تحليل الاحتياجات التدريبية"
+    },
+    {
+      "id": "academic_advising",
+      "label_en": "Academic Advising",
+      "label_ar": "الإرشاد الأكاديمي"
+    },
+    {
+      "id": "special_education",
+      "label_en": "Special Education",
+      "label_ar": "التربية الخاصة"
+    },
+    {
+      "id": "language_instruction",
+      "label_en": "Language Instruction",
+      "label_ar": "تعليم اللغات"
+    },
+    {
+      "id": "stem_teaching",
+      "label_en": "STEM Teaching",
+      "label_ar": "تدريس العلوم والرياضيات"
+    },
+    {
+      "id": "educational_administration",
+      "label_en": "Educational Administration",
+      "label_ar": "الإدارة التعليمية"
+    },
+    {
+      "id": "student_affairs",
+      "label_en": "Student Affairs Management",
+      "label_ar": "شؤون الطلاب"
+    }
+  ],
+  "security_facilities": [
+    {
+      "id": "physical_security_operations",
+      "label_en": "Physical Security Operations",
+      "label_ar": "عمليات الأمن الفعلي"
+    },
+    {
+      "id": "cctv_surveillance",
+      "label_en": "CCTV & Surveillance Monitoring",
+      "label_ar": "المراقبة بالكاميرات"
+    },
+    {
+      "id": "access_control",
+      "label_en": "Access Control",
+      "label_ar": "التحكم في الدخول"
+    },
+    {
+      "id": "patrolling_inspection",
+      "label_en": "Patrolling & Site Inspection",
+      "label_ar": "الدوريات وتفتيش المواقع"
+    },
+    {
+      "id": "incident_reporting",
+      "label_en": "Incident Reporting",
+      "label_ar": "إعداد تقارير الحوادث"
+    },
+    {
+      "id": "emergency_response",
+      "label_en": "Emergency Response",
+      "label_ar": "الاستجابة للطوارئ"
+    },
+    {
+      "id": "fire_safety",
+      "label_en": "Fire Safety & Prevention",
+      "label_ar": "السلامة من الحرائق"
+    },
+    {
+      "id": "crowd_management",
+      "label_en": "Crowd Management",
+      "label_ar": "إدارة الحشود"
+    },
+    {
+      "id": "visitor_gate_management",
+      "label_en": "Visitor & Gate Management",
+      "label_ar": "إدارة الزوار والبوابات"
+    },
+    {
+      "id": "loss_prevention",
+      "label_en": "Loss Prevention",
+      "label_ar": "منع الخسائر"
+    },
+    {
+      "id": "occupational_health_safety",
+      "label_en": "Occupational Health & Safety (OHS)",
+      "label_ar": "الصحة والسلامة المهنية"
+    },
+    {
+      "id": "facilities_maintenance",
+      "label_en": "Facilities Maintenance",
+      "label_ar": "صيانة المرافق"
+    },
+    {
+      "id": "building_services_mep",
+      "label_en": "Building Services (MEP) Oversight",
+      "label_ar": "الإشراف على خدمات المباني"
+    },
+    {
+      "id": "security_systems_operation",
+      "label_en": "Security Systems Operation",
+      "label_ar": "تشغيل أنظمة الأمن"
+    },
+    {
+      "id": "guard_force_supervision",
+      "label_en": "Guard Force Supervision",
+      "label_ar": "الإشراف على أفراد الأمن"
+    },
+    {
+      "id": "vendor_contractor_coordination",
+      "label_en": "Vendor & Contractor Coordination",
+      "label_ar": "تنسيق الموردين والمقاولين"
+    },
+    {
+      "id": "risk_threat_assessment",
+      "label_en": "Risk & Threat Assessment",
+      "label_ar": "تقييم المخاطر والتهديدات"
+    }
+  ],
+  "other": []
+}

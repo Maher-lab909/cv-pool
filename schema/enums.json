@@ -1,0 +1,105 @@
+{
+  "seniority": [
+    {
+      "id": "junior",
+      "label_en": "Junior (0-2 yrs)",
+      "label_ar": "مبتدئ"
+    },
+    {
+      "id": "mid",
+      "label_en": "Mid-level (2-5 yrs)",
+      "label_ar": "متوسط"
+    },
+    {
+      "id": "senior",
+      "label_en": "Senior (5+ yrs)",
+      "label_ar": "خبير"
+    },
+    {
+      "id": "lead",
+      "label_en": "Lead / Supervisor",
+      "label_ar": "قائد فريق / مشرف"
+    },
+    {
+      "id": "manager",
+      "label_en": "Manager",
+      "label_ar": "مدير"
+    },
+    {
+      "id": "director",
+      "label_en": "Director / Head",
+      "label_ar": "مدير إدارة"
+    },
+    {
+      "id": "executive",
+      "label_en": "Executive (VP / C-level)",
+      "label_ar": "تنفيذي"
+    }
+  ],
+  "degree": [
+    {
+      "id": "high_school",
+      "label_en": "High School",
+      "label_ar": "ثانوية"
+    },
+    {
+      "id": "diploma",
+      "label_en": "Diploma",
+      "label_ar": "دبلوم"
+    },
+    {
+      "id": "bachelor",
+      "label_en": "Bachelor's",
+      "label_ar": "بكالوريوس"
+    },
+    {
+      "id": "master",
+      "label_en": "Master's",
+      "label_ar": "ماجستير"
+    },
+    {
+      "id": "phd",
+      "label_en": "PhD",
+      "label_ar": "دكتوراه"
+    }
+  ],
+  "language_level": [
+    {
+      "id": "basic",
+      "label_en": "Basic",
+      "label_ar": "مبتدئ"
+    },
+    {
+      "id": "good",
+      "label_en": "Good / Professional",
+      "label_ar": "جيد"
+    },
+    {
+      "id": "fluent",
+      "label_en": "Fluent",
+      "label_ar": "طليق"
+    },
+    {
+      "id": "native",
+      "label_en": "Native",
+      "label_ar": "لغة أم"
+    }
+  ],
+  "scope": [
+    {
+      "id": "support",
+      "label_en": "Support",
+      "label_ar": "مساند"
+    },
+    {
+      "id": "executed",
+      "label_en": "Executed",
+      "label_ar": "منفّذ"
+    },
+    {
+      "id": "built",
+      "label_en": "Built",
+      "label_ar": "بانٍ"
+    }
+  ]
+}
