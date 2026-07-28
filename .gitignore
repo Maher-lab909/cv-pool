@@ -17,3 +17,9 @@ all_profiles.json
 # Python noise
 __pycache__/
 *.pyc
+answer_key.xlsx
+eval_cvs/
+answer_key_aliases.json
+collect_eval_cvs.py
+fix_missing_3.py
+reset_eval19.py

@@ -9,6 +9,9 @@ Like the intake engine, it's incremental and forgiving:
 - Die halfway? Just run again — it picks up where it left off, re-paying nothing.
 - Each profile is stamped with the schema version + source file, so when the
   schema changes you know which profiles are stale.
+- LAYER 3 GUARD: every profile is validated against the Pydantic mirror before
+  saving. Invalid -> one retry; still invalid -> quarantined to rejected/,
+  never into the pool.
 """
 
 import os
@@ -33,6 +36,11 @@ PROFILES.mkdir(exist_ok=True)
 
 sys.path.insert(0, str(SCHEMA_DIR))
 from build_competency_schema import build_competency_schema   # noqa: E402
+from models import Profile                                    # noqa: E402
+from pydantic import ValidationError                          # noqa: E402
+
+REJECTED = BASE / "rejected"
+REJECTED.mkdir(exist_ok=True)
 
 load_dotenv()
 if not os.getenv("ANTHROPIC_API_KEY"):
@@ -148,6 +156,17 @@ def run_pass2(job):
     return comps, r.usage
 
 
+def validate_profile(profile):
+    """Layer 3 guard: check the profile against the Pydantic mirror.
+    Returns a list of violation strings (empty = valid)."""
+    try:
+        Profile.model_validate(profile)
+        return []
+    except ValidationError as e:
+        return [f"{'.'.join(str(x) for x in err['loc'])}: {err['msg']}"
+                for err in e.errors()]
+
+
 # --- Load the ledger: which source files are already profiled? ---
 done = set()
 if LEDGER.exists():
@@ -163,7 +182,7 @@ print(f"Pool: {len(all_txt)} CV texts | already profiled: {len(done)} | to do no
 
 ledger_is_new = not LEDGER.exists()
 tot_in = tot_out = 0
-ok = failed = 0
+ok = failed = rejected = 0
 start = time.time()
 
 with LEDGER.open("a", newline="", encoding="utf-8-sig") as ledger_file:
@@ -183,7 +202,22 @@ with LEDGER.open("a", newline="", encoding="utf-8-sig") as ledger_file:
                     cin += u2.input_tokens
                     cout += u2.output_tokens
 
-            # stamp provenance, then save
+            # LAYER 3 GUARD: validate; one retry on failure; else quarantine
+            violations = validate_profile(profile)
+            if violations:
+                print(f"    invalid ({violations[0][:60]}) — retrying once...")
+                profile, u1b = run_pass1(path.read_text(encoding="utf-8"))
+                cin += u1b.input_tokens
+                cout += u1b.output_tokens
+                for job in profile.get("experience", []):
+                    comps, u2b = run_pass2(job)
+                    job["competencies"] = comps
+                    if u2b:
+                        cin += u2b.input_tokens
+                        cout += u2b.output_tokens
+                violations = validate_profile(profile)
+
+            # stamp provenance, then save (to pool, or to rejected/ if invalid)
             stamped = {
                 "_meta": {
                     "source_file": path.name,
@@ -194,6 +228,16 @@ with LEDGER.open("a", newline="", encoding="utf-8-sig") as ledger_file:
                 },
                 "profile": profile,
             }
+            if violations:
+                stamped["_meta"]["status"] = "rejected"
+                stamped["_meta"]["violations"] = violations
+                rej_path = REJECTED / (path.stem + ".json")
+                rej_path.write_text(json.dumps(stamped, ensure_ascii=False, indent=2), encoding="utf-8")
+                rejected += 1
+                print(f"[{i}/{len(todo)}] REJECTED {path.name} "
+                      f"({len(violations)} violations) -> rejected/")
+                continue
+
             out_path = PROFILES / (path.stem + ".json")
             out_path.write_text(json.dumps(stamped, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -217,7 +261,8 @@ with LEDGER.open("a", newline="", encoding="utf-8-sig") as ledger_file:
 elapsed = int(time.time() - start)
 cost = tot_in * PRICE_IN + tot_out * PRICE_OUT
 print("\n" + "=" * 60)
-print(f"Done this run: {ok} profiled, {failed} failed, in {elapsed//60}m {elapsed%60}s")
+print(f"Done this run: {ok} profiled, {rejected} rejected (quarantined), "
+      f"{failed} failed, in {elapsed//60}m {elapsed%60}s")
 print(f"Tokens: {tot_in:,} in + {tot_out:,} out")
 print(f"Cost this run: ${cost:.2f}" + (f"  (~${cost/ok:.3f} per CV)" if ok else ""))
 print(f"Profiles saved in: {PROFILES.name}/   ({len(list(PROFILES.glob('*.json')))} total)")
